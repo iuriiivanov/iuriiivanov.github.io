@@ -303,7 +303,7 @@
       </section>
 
       <footer class="animate">
-        <p>© 2026 github.com/iuriiivanov</p>
+        <p>© 2026 <a href="https://github.com/iuriiivanov">github.com/iuriiivanov</a></p>
       </footer>
     </main>
 
@@ -319,24 +319,21 @@
         },
         { threshold: 0.2 }
       );
-
       document.querySelectorAll(".animate").forEach((el) => {
         observer.observe(el);
       });
-document.querySelectorAll(".project-header").forEach((button) => {
-  button.addEventListener("click", () => {
-    const project = button.parentElement;
-    const isActive = project.classList.contains("active");
-
-    document.querySelectorAll(".project").forEach((p) => {
-      p.classList.remove("active");
-    });
-
-    if (!isActive) {
-      project.classList.add("active");
-    }
-  });
-});
-</script>
-</body>
+      document.querySelectorAll(".project-header").forEach((button) => {
+        button.addEventListener("click", () => {
+          const project = button.parentElement;
+          const isActive = project.classList.contains("active");
+          document.querySelectorAll(".project").forEach((p) => {
+            p.classList.remove("active");
+          });
+          if (!isActive) {
+            project.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
