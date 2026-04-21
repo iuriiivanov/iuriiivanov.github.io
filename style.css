@@ -19,7 +19,8 @@ body {
 }
 
 a {
-    color: #0f5132;
+    /* color: #0f5132; */
+    color: #2d2d2d;
     text-decoration: none;
 }
 
