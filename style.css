@@ -311,7 +311,7 @@ footer {
 }
 
 .social-icon:hover {
-    background: rgba(15, 81, 50, 0.1);
+    background: rgba(45, 45, 45, 0.1);
     transform: translateY(-2px);
 }
 
