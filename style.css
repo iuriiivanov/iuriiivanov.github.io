@@ -230,8 +230,7 @@ footer {
     top: 0;
     height: 100%;
     width: 2px;
-    /* background: #0f5132; */
-    background: #2d2d2d;
+    background: #0f5132;
     animation: blink-caret .75s step-end infinite;
 }
 
